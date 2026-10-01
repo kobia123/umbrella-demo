@@ -1,0 +1,9 @@
+global:
+  imageTag: "2.0"
+frontend:
+ replicaCount: 5
+backend:
+ replicaCount: 7
+redis:
+ #enabled: true
+ replicaCount: 3 
